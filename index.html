@@ -3,100 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title class="title-text">webstudio</title>
   </head>
   <body>
     <header class="header-container">
-      <div class="icon-logo">
-        <a href="" class="icon-logo_text">
-          <span class="icon-logo_stylized-text">web</span>studio
-        </a>
-      </div>
       <nav class="header-navigation">
+        <div class="icon-logo">
+          <a href="./index.html" class="icon-logo_text"> WebStudio </a>
+        </div>
         <ul class="header-navigation_ul">
           <li class="header-navigation_li">
-            <a href="" class="header-navigation_a">studio</a>
+            <a href="" class="header-navigation_a">Studio</a>
           </li>
           <li class="header-navigation_li">
-            <a href="" class="header-navigation_a">portfolio</a>
+            <a href="" class="header-navigation_a">Portfolio</a>
           </li>
           <li class="header-navigation_li">
-            <a href="" class="header-navigation_a">contacts</a>
+            <a href="" class="header-navigation_a">Contacts</a>
           </li>
         </ul>
       </nav>
       <address class="header-adrress">
         <ul class="header-address_ul">
-          <li class="header-address_li">info@devstudio.com</li>
-          <li class="header-address_li">+11(000)111-11-11</li>
+          <li class="header-address_li">
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-address_email-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-address_li">
+            <a href="tel:+110001111111" class="header-address_phone-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main class="main-container">
       <section class="content-section">
         <h1 class="cover-section_h1">Effective Solutions for Your Business</h1>
-        <input type="button" class="cover-section_button" value="order service">
+        <input
+          type="button"
+          class="cover-section_button"
+          value="Order Service"
+        />
       </section>
       <section class="content-section">
-        <div class="content-text-container">
-          <div class="content-text_block">
-            <h6 class="content-text_h6">Strategy</h6>
+        <h2 class="hidden-reader_h1">Reader h2 text</h2>
+        <ul class="content-text-container">
+          <li class="content-text_block">
+            <h3 class="content-text_h3">Strategy</h3>
             <p class="content-text_p">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
-          </div>
-          <div class="content-text_block">
-            <h6 class="content-text_h6">Punctuality</h6>
+          </li>
+          <li class="content-text_block">
+            <h3 class="content-text_h3">Punctuality</h3>
             <p class="content-text_p">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
-          </div>
-          <div class="content-text_block">
-            <h6 class="content-text_h6">Diligence</h6>
+          </li>
+          <li class="content-text_block">
+            <h3 class="content-text_h3">Diligence</h3>
             <p class="content-text_p">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
-          </div>
-          <div class="content-text_block">
-            <h6 class="content-text_h6">Technologies</h6>
+          </li>
+          <li class="content-text_block">
+            <h3 class="content-text_h3">Technologies</h3>
             <p class="content-text_p">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
-          </div>
-        </div>
-        <div class="content-photo-container">
-          <h2 class="content-photo_h2">What are we doing</h2>
-          <div class="content-photos">
+          </li>
+        </ul>
+      </section>
+      <section class="content-section">
+        <h2 class="content-photo_h2">What are we doing</h2>
+        <ul class="content-photos">
+          <li class="content-photo_li">
             <img
               width="360px"
-              src="./images/doing/doing-section1.png"
+              src="./images/doing/doing-section1.jpg"
               alt="Mac PC"
               class="content-photo_img"
             />
+          </li>
+          <li class="content-photo_li">
             <img
               width="360px"
-              src="./images/doing/doing-section2.png"
+              src="./images/doing/doing-section2.jpg"
               alt="Phone Mocups"
               class="content-photo_img"
             />
+          </li>
+          <li class="content-photo_li">
             <img
               width="360px"
-              src="./images/doing/doing-section3.png"
+              src="./images/doing/doing-section3.jpg"
               alt="Phone in hand"
               class="content-photo_img"
             />
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
       <section class="content-section">
         <h2 class="content-team_h2">Our Team</h2>
-        <div class="content-team-container">
-          <div class="team-persone_card">
+        <ul class="content-team-container">
+          <li class="team-persone_card">
             <img
               width="264px"
               src="./images/team/Mark.png"
@@ -104,11 +122,11 @@
               class="team-persone_img"
             />
             <div class="team-persone-info">
-              <p class="team-persone_name">Mark Guerrero</p>
+              <h3 class="team-persone_name">Mark Guerrero</h3>
               <p class="team-persone_position">Product Designer</p>
             </div>
-          </div>
-          <div class="team-persone_card">
+          </li>
+          <li class="team-persone_card">
             <img
               width="264px"
               src="./images/team/Tom.png"
@@ -116,11 +134,11 @@
               class="team-persone_img"
             />
             <div class="team-persone-info">
-              <p class="team-persone_name">Tom Ford</p>
+              <h3 class="team-persone_name">Tom Ford</h3>
               <p class="team-persone_position">Frontend Developer</p>
             </div>
-          </div>
-          <div class="team-persone_card">
+          </li>
+          <li class="team-persone_card">
             <img
               width="264px"
               src="./images/team/Camila.png"
@@ -128,11 +146,11 @@
               class="team-persone_img"
             />
             <div class="team-persone-info">
-              <p class="team-persone_name">Camila Garcia</p>
+              <h3 class="team-persone_name">Camila Garcia</h3>
               <p class="team-persone_position">Marketing</p>
             </div>
-          </div>
-          <div class="team-persone_card">
+          </li>
+          <li class="team-persone_card">
             <img
               width="264px"
               src="./images/team/Daniel.png"
@@ -140,19 +158,17 @@
               class="team-persone_img"
             />
             <div class="team-persone-info">
-              <p class="team-persone_name">Daniel Wilson</p>
+              <h3 class="team-persone_name">Daniel Wilson</h3>
               <p class="team-persone_position">UI Designer</p>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer-container">
       <div class="footer-content">
         <div class="icon-logo">
-          <a href="" class="icon-logo_text">
-            <span class="icon-logo_stylized-text">web</span>studio
-          </a>
+          <a href="./index.html" class="icon-logo_text"> WebStudio </a>
         </div>
         <p class="footer-content_text">
           Increase the flow of customers and sales for your business with
